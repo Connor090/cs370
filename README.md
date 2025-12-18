@@ -1,2 +1,6 @@
 # cs370
-Q learning.
+
+
+For this CS 370 project, I implemented a deep Q-learning algorithm to train an intelligent agent (pirate) to navigate an 8x8 maze and find treasure. I was given the game framework (TreasureMaze.py and GameExperience.py) and neural network setup, but I created the core Q-training algorithm myself, including the epsilon-greedy exploration strategy, experience replay mechanism, reward processing, and the main training loop. This project taught me how computer scientists approach complex problems - instead of hard-coding every solution, we create systems that learn and adapt, which is crucial for real-world applications like robot navigation or game AI. My approach involved breaking the problem into smaller pieces (state representation, action selection, learning from rewards), implementing incrementally, and debugging issues like when the agent got stuck choosing invalid actions. The project also highlighted important ethical responsibilities: AI systems need to be transparent, fair, and safe for end users, and as developers we must be honest about system limitations and protect user data. Understanding these ethical implications is crucial because AI systems deployed in real-world scenarios like autonomous vehicles or medical diagnosis have serious consequences that require careful consideration of fairness, accountability, and user trust.
+
+ch
